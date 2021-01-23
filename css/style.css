@@ -145,8 +145,8 @@ p {
   display: none;
 }
 
-.img {
+#slidy-container {
   width: 100%;
-  height: auto;
   overflow: hidden;
+  margin: 0;
 }
