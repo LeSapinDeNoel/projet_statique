@@ -8,6 +8,10 @@
     font-family: "Acherus Grotesque";
 }
 
+body {
+  background-color: #BFBFBD;
+}
+
 body, h1 {
     margin: 0;
     padding: 0;
