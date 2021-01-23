@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Acherus Grotesque";
+    src: url("/fonts/Horizon\ Type\ -\ AcherusGrotesque-Regular.otf") format("otf"),
+           url("/fonts/Horizon\ Type\ -\ AcherusGrotesque-RegularItalic.otf") format("otf");
+   }
+
+* {
+    font-family: "Acherus Grotesque";
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-style: italic;
+}
+
+/* Menu Burger */
+/* Le bouton stylé */
+
+
+.bt {
+    position: absolute;
+    left: 8px;
+    top: 9px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    z-index: 1;
+  }
+  .line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+
+  .bg {
+    background-color: #BFBFBD;
+}
+  
+  /* Fin du bouton stylé */
+
+  .menu {
+    position: absolute;
+    width: 280px;
+    height: 800px;
+    padding: 50px;
+    margin: -100px 0 0 -400px;
+    padding-top: 125px;    
+    background: #ffffff;
+    box-shadow: 0 0 10px #85888C;
+  }
+
+  .menu a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #1E1E23;
+    opacity:1;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: 200ms;
+    padding: 10px 0;
+    margin: 20px 25px;
+    z-index: 2;
+  }
+
+  .menu a:first-child {
+      margin-top: 50px;
+  }
+
+  .menu a:hover {
+    opacity:0.5;
+  }
+
+/* Fin du menu Burger */
+/* Le header */
+.header {
+    background-color: #1B1F26;
+    height: 70px;
+}
+
+.header h1 {
+    color: #ffffff;
+}
+
+.header span {
+    color: #A69F97;
+}
+
+.head-marque {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.marque {
+    text-align: center;
+    margin: 0 10%;
+}
+
+.logo_img {
+    width: 50px;
+    height: 54px;
+    background:no-repeat center center / cover url(../Le_logo/Logo\ CostardFPWT.jpg);
+}
+
+/* Slider auto */
+
+.s_hide {
+  display: none;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
