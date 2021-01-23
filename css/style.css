@@ -75,11 +75,13 @@ p {
 
   .menu {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 280px;
     height: 800px;
     padding: 50px;
     margin: -100px 0 0 -400px;
-    padding-top: 125px;    
+    padding-top: 125px;
     background: #ffffff;
     box-shadow: 0 0 10px #85888C;
   }
@@ -141,12 +143,10 @@ p {
 
 /* Slider auto */
 
-.s_hide {
-  display: none;
-}
-
 #slidy-container {
   width: 100%;
   overflow: hidden;
   margin: 0;
 }
+
+/* Fin du slider */
