@@ -6,6 +6,7 @@
 
 * {
     font-family: "Acherus Grotesque";
+    color: #ffffff;
 }
 
 body {
@@ -158,7 +159,7 @@ p {
 .txt-slider {
   position: absolute;
   top: 16%;
-  background-color: #0000009f;
+  background-color: #000000b2;
   text-align: center;
   color: #ffffff;
   width: 100%;
@@ -172,4 +173,60 @@ p {
   height: 10px;
   width: 100%;
   background-color: #1B1F26;
+}
+
+/* Main */
+
+.bg-article-a {
+  height: 364px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/CostarClassic.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bg-article-a a, .bg-article-b a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4A4F59;
+  border: solid 3px #BFBFBD;
+  font-size: 22px;
+  padding: 2px 5px;
+  margin: 0 0 10% 0;
+}
+
+.bg-article-txt {
+  color: #ffffff;
+  background-color: #000000b2;
+  text-align: center;
+  padding: 5px 2px;
+  margin: 25px 10px;
+}
+
+.bg-article-b {
+  height: 364px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/SuiteOri.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Le footer */
+
+.img_footer {
+  background: no-repeat center center / cover url('../img/Cover_Caro_3.jpg');
+  width: auto;
+  height: 202px;
+  display: flex;
+  align-items: center;
+}
+
+.img_footer p {
+  text-align: center;
+  background-color: #000000b2;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 20px;
 }
