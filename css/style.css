@@ -47,7 +47,7 @@ p {
     cursor: pointer;
     display: flex;
     padding: 0;
-    z-index: 1;
+    z-index: 201;
   }
   .line {
     fill: none;
@@ -101,6 +101,7 @@ p {
     padding-top: 125px;
     background: #ffffff;
     box-shadow: 0 0 10px #85888C;
+    z-index: 200;
   }
 
   .menu a {
@@ -170,7 +171,7 @@ p {
 
 .txt-slider {
   position: absolute;
-  top: 16%;
+  top: 129px;
   background-color: #000000b2;
   text-align: center;
   color: #ffffff;
@@ -188,6 +189,14 @@ p {
 }
 
 /* Main */
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
 
 .bg-article-a {
   height: 364px;
