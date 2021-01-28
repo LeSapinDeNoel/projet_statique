@@ -579,3 +579,35 @@ main {
     margin-right: 50px;
   }
 }
+
+@media screen and (min-width: 1600px) {
+
+  .bg-article-a {
+    height: 950px;
+    width: 942px;
+  }
+
+  .bg-article-b {
+    height: 950px;
+    width: 942px;
+  }
+
+  .bg-article-txt {
+    height: 950px;
+    width: 70vh;
+    font-size: 25px;
+  }
+
+  .bg-article-txt h1 {
+    padding-bottom: 80px;
+  }
+
+  .article_a .bg-article-txt {
+    margin-left: 50px;
+  }
+
+  .article_b .bg-article-txt {
+    width: 70vh;
+    margin-right: 50px;
+  }  
+}
