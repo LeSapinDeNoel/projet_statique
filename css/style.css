@@ -30,6 +30,10 @@ body, h1 {
     padding: 0;
 }
 
+h1 {
+  font-weight: 250;
+}
+
 p {
     font-style: italic;
 }
@@ -135,6 +139,7 @@ p {
 
 .header h1 {
     color: #ffffff;
+    height: 40px;
 }
 
 .header span {
@@ -154,8 +159,8 @@ p {
 }
 
 .logo_img {
-    width: 50px;
-    height: 54px;
+    width: 63px;
+    height: 70px;
     background:no-repeat center center / cover url(../Le_logo/Logo\ CostardFPWT.jpg);
 }
 
@@ -219,6 +224,7 @@ main {
 .bta {
   width: 200px;
   height: 60px;
+  font-size: 40px;
   cursor: pointer;
   perspective: 500px;
   -webkit-perspective: 500px;
@@ -296,7 +302,10 @@ main {
   align-items: center;
 }
 
-.img_footer p {
+.img_footer p {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background-color: #000000b2;
   width: 100%;
@@ -344,18 +353,19 @@ main {
   .txt-slider {
     top: calc(70px + 20%);
   }
+
+  .head-marque .marque {
+    margin-right: 30%;
+  }
 }
 
 @media screen and (min-width: 767px) {
 
   /* Header */
 
-  .head-marque {
-    margin-right: 30%;
-  }
-
   .txt-slider {
     top: calc(70px + 30%);
+    height: 110px;
   }
 
   /* Main */
@@ -401,6 +411,10 @@ main {
   
   /* Footer */
 
+  .img_footer {
+    height: 300px;
+  }
+
   .info {
     display: flex;
     justify-content: space-around;
@@ -413,5 +427,109 @@ main {
     display: flex;
     height: 180px;
     width: auto;  
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  /* Header */
+
+  .txt-slider {
+    top: calc(70px + 27vh);
+    height: 33vh;
+    font-size: 25px;
+  }
+  
+  #slidy-container {
+    height: calc(100vh - 70px);
+  }
+
+  /* La navigation devient responsive pour PC ici ! */
+
+  #menu {
+    display: none;
+  }
+
+  .menu, #j_menu {
+    position: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background: none;
+    box-shadow: none;
+    z-index: 0;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity:1;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: 200ms;
+    padding: 0;
+    margin: 0;
+    z-index: none;
+  }
+
+  .menu a:first-child {
+      margin: 0;
+  }
+
+  #menu-resp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+    height: 70px;
+  }
+
+  .head-marque {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    width: 40%;
+  }
+
+  .marque {
+    margin: 0 20px;
+  }
+
+  .head-marque h1 {
+    width: 161px;
+  }
+
+  #j_menu a{
+    margin: 0 30px;
+    padding: 0 5px;
+    transition: 0.3s;
+  }
+
+  #j_menu .active {
+    background-color: #BFBFBD;
+    color: #1B1F26;
+  }
+
+  #j_menu a:hover {
+    background-color: #BFBFBD;
+    color: #1B1F26;
+    opacity: 1;
+  }
+
+  /* main */
+
+  /* Le footer */
+
+  .img_footer {
+    height: 400px;
+  }
+
+  .img_footer p {
+    height: 200px;
   }
 }
