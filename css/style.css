@@ -99,7 +99,7 @@ p {
     top: 0;
     left: 0;
     width: 280px;
-    height: 1600px;
+    height: 1750px;
     padding: 50px;
     margin: -100px 0 0 -400px;
     padding-top: 125px;
@@ -523,13 +523,16 @@ main {
 
   /* main */
 
+  /* Nothing here :D */
+
   /* Le footer */
 
   .img_footer {
-    height: 400px;
+    height: 800px;
   }
 
   .img_footer p {
-    height: 200px;
+    height: 300px;
+    font-size: 25px;
   }
 }
