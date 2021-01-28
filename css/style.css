@@ -536,3 +536,46 @@ main {
     font-size: 25px;
   }
 }
+
+@media screen and (min-width: 1400px) {
+
+  /* Header */
+  .header {
+    height: 80px;
+  }
+
+  /* main */
+
+  .article_a {
+    margin-bottom:20px;
+  }
+
+  .bg-article-a {
+    height: 750px;
+    width: 742px;
+  }
+
+  .bg-article-b {
+    height: 750px;
+    width: 742px;
+  }
+
+  .bg-article-txt {
+    height: 750px;
+    width: 70vh;
+    font-size: 25px;
+  }
+
+  .bg-article-txt h1 {
+    padding-bottom: 80px;
+  }
+
+  .article_a .bg-article-txt {
+    margin-left: 50px;
+  }
+
+  .article_b .bg-article-txt {
+    width: 70vh;
+    margin-right: 50px;
+  }
+}
