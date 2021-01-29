@@ -582,6 +582,14 @@ main {
 
 @media screen and (min-width: 1600px) {
 
+  /* header */
+
+  .txt-slider {
+    font-size: 35px;
+  }
+
+  /* main */
+
   .bg-article-a {
     height: 950px;
     width: 942px;
@@ -609,5 +617,9 @@ main {
   .article_b .bg-article-txt {
     width: 70vh;
     margin-right: 50px;
-  }  
+  }
+  
+  .img_footer p {
+    font-size: 35px;
+  }
 }
