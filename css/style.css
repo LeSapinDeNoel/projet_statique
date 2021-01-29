@@ -224,7 +224,7 @@ main {
 .bta {
   width: 200px;
   height: 60px;
-  font-size: 40px;
+  font-size: 30px;
   cursor: pointer;
   perspective: 500px;
   -webkit-perspective: 500px;
@@ -249,7 +249,9 @@ main {
   line-height: 50px;
   font-size: 17pt;
   text-align: center;
-  text-transform: uppercase;
+}
+.bg-winter-suit .bta {
+  width: 220px;
 }
 .bta span:nth-child(1) {
   color: #fff;
@@ -281,6 +283,7 @@ main {
   text-align: center;
   padding: 5px 2px;
   margin: 25px 10px;
+  font-size: 20px;
 }
 
 .bg-article-b {
@@ -345,13 +348,53 @@ main {
   align-items: flex-end;
 }
 
-/* MEDIA QUERIES */
-
-@media screen and (min-width: 370px) {
-  main {
-    margin-top: 20px;
-  }
+.bg-grey-suit {
+  height: 583px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/Suit_Classic_2.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
+
+.bg-black-suit {
+  height: 583px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/Suit_Classic_3.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bg-sailor-suit {
+  height: 583px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/Suit_Classic_4.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bg-winter-suit {
+  height: 583px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/Suit_Ori.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.titre-art {
+  color: #000000;
+  background-color: #A69F97;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MEDIA QUERIES */
 
 @media screen and (min-width: 400px) {
   .txt-slider {
