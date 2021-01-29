@@ -211,7 +211,7 @@ main {
   align-items: flex-end;
 }
 
-.bg-article-a a, .bg-article-b a {
+.bta {
   text-decoration: none;
   color: #ffffff;
   font-size: 22px;
@@ -333,6 +333,19 @@ main {
 .info img {
   display: none;
 }
+
+/* STYLE PAGE COSTUME */
+
+.bg-blue-suit {
+  height: 583px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/Suit_Classic_1.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* MEDIA QUERIES */
 
 @media screen and (min-width: 370px) {
   main {
