@@ -286,6 +286,10 @@ main {
   font-size: 20px;
 }
 
+.bg-article-txt h1 {
+  font-size: 25px;
+}
+
 .bg-article-b {
   height: 364px;
   width: 360px;
@@ -660,14 +664,6 @@ main {
     height: 950px;
     width: 70vh;
     font-size: 25px;
-  }
-
-  .bg-article-txt h1 {
-    padding-bottom: 80px;
-  }
-
-  .article_a .bg-article-txt {
-    margin-left: 50px;
   }
 
   .article_b .bg-article-txt {
