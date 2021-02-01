@@ -423,7 +423,7 @@ main {
 
   /* Header */
 
-  #El-slider {
+  #El-slider, #sepastop {
     display: none;
   }
 
@@ -478,7 +478,6 @@ main {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    padding-bottom: 20px;
   }
 
   .article_b .bg-article-txt {
@@ -628,6 +627,16 @@ main {
 
   /* main */
 
+  #article-txt {
+    height: 400px;
+    width: 310px;
+    margin-left: 0;    
+  }
+
+  #article-txt h1 {
+    padding-bottom: 20px;
+  }
+
   .article_a {
     margin-bottom:20px;
   }
@@ -645,7 +654,7 @@ main {
   .bg-article-txt {
     height: 750px;
     width: 70vh;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .bg-article-txt h1 {
