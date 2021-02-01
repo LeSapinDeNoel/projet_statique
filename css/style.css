@@ -423,12 +423,34 @@ main {
 
   /* Header */
 
+  #El-slider {
+    display: none;
+  }
+
   .txt-slider {
-    top: calc(70px + 30%);
+    top: calc(70px + 20%);
     height: 110px;
   }
 
   /* Main */
+
+  /* margin img produits */
+
+  .bg-blue-suit, .bg-winter-suit {
+    margin-top: 20px;
+  }
+
+  .bg-blue-suit, .bg-black-suit, .bg-winter-suit {
+    margin-right: 20px;
+  }
+
+  .bg-grey-suit, .bg-sailor-suit {
+    margin-left: 20px;
+  }
+
+  .bg-blue-suit, .bg-grey-suit, .bg-black-suit, .bg-sailor-suit, .bg-winter-suit {
+    margin-bottom: 25px;
+  }
 
   .article_a {
     display: flex;
