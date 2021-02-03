@@ -401,9 +401,18 @@ main {
 
 /* page mentions légales */
 
-.mention-txt {
+.mention-txt, .plan-txt {
   width: auto;
   padding: 0 30px;
+}
+
+/* page plan du site */
+.plan-txt a{
+  text-decoration: none;
+}
+
+.plan-txt a:hover{
+  text-decoration: underline;
 }
 
 /* MEDIA QUERIES */
@@ -504,7 +513,7 @@ main {
   
   /* mentions légales média */
 
-  .mention-txt {
+  .mention-txt, .plan-txt {
     height: auto;
   }
 
@@ -707,8 +716,16 @@ main {
     margin-right: 50px;
   }
 
-  .mention-txt {
+  .mention-txt, .plan-txt {
     font-size: 30px;
+  }
+
+  /* plan site média */
+
+  .plan-txt {
+    height: 600px;
+    width: 400px;
+    margin: 30px 0;
   }
 
 }
@@ -775,11 +792,18 @@ main {
     font-size: 30px;
   }
 
-  .mention-txt {
+  
+  /* Fin page costumes */
+  
+  .mention-txt, .plan-txt {
     font-size: 35px;
   }
 
-  /* Fin page costumes */
+  .plan-txt {
+    height: 600px;
+    width: 450px;
+    margin: 30px 0;
+  }
 
   /* footer */
 
