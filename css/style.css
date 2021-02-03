@@ -571,6 +571,7 @@ main {
     align-items: center;
     justify-content: space-between;
     margin: 0 5%;
+    padding-top: 3px;
     height: 70px;
   }
 
@@ -631,6 +632,8 @@ main {
 
   /* main */
 
+  /* media page costumes */
+
   #article-txt {
     height: 500px;
     width: 400px; 
@@ -654,6 +657,8 @@ main {
     height: 810px;
     width: 500px;
   }
+
+  /* Fin page costumes */
 
   .article_a {
     margin-bottom:20px;
@@ -723,4 +728,25 @@ main {
   .img_footer p {
     font-size: 35px;
   }
+
+  /* Page costumes media */
+
+  .bg-blue-suit, .bg-grey-suit, .bg-black-suit, .bg-sailor-suit, .bg-winter-suit {
+    height: 1134px;
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #article-txt {
+    height: 570px;
+    width: 500px;
+    font-size: 25px;
+  }
+
+  #article-txt h1 {
+    font-size: 30px;
+  }
+
+  /* Fin page costumes */
 }
