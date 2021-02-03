@@ -396,6 +396,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 40px;
+}
+
+/* page mentions légales */
+
+.mention-txt {
+  width: auto;
+  padding: 0 30px;
 }
 
 /* MEDIA QUERIES */
@@ -494,6 +502,12 @@ main {
     margin: 10px 20px;
   }
   
+  /* mentions légales média */
+
+  .mention-txt {
+    height: auto;
+  }
+
   /* Footer */
 
   .img_footer {
@@ -607,7 +621,7 @@ main {
     opacity: 1;
   }
 
-  /* main */
+  /* main */  
 
   /* Nothing here :D */
 
@@ -692,6 +706,11 @@ main {
     width: 70vh;
     margin-right: 50px;
   }
+
+  .mention-txt {
+    font-size: 30px;
+  }
+
 }
 
 @media screen and (min-width: 1600px) {
@@ -703,6 +722,14 @@ main {
   }
 
   /* main */
+
+  .article_a {
+    padding-top: 50px;
+  }
+
+  .article_b {
+    padding-bottom: 50px;
+  }
 
   .bg-article-a {
     height: 950px;
@@ -748,5 +775,15 @@ main {
     font-size: 30px;
   }
 
+  .mention-txt {
+    font-size: 35px;
+  }
+
   /* Fin page costumes */
+
+  /* footer */
+
+  .footer a {
+    font-size: 28px;
+  }
 }
