@@ -29,63 +29,45 @@
                 <img src="Le_logo/Logo CostardFPWT.svg" alt="Le logo" class="logo_img">
             </div>
             <nav id="j_menu" class="menu hide">
-                <a href="index.html" class="active">Accueil</a>
+                <a href="index.html">Accueil</a>
                 <a href="costumes.html">Costumes</a>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="active">Contact</a>
             </nav>
         </div>
     </header>
-    <div id="slidy-container">
-        <figure id="slidy">
-            <img src="img/Cover_Caro_1.jpg" alt="eyes" >
-            <img src="img/Cover_Caro_2.jpg" alt="lou" >
-            <img src="img/Cover_Caro_3.jpg" alt="lucie-2" >
-        </figure>
-    </div>
-    <div class="txt-slider">
-        En ce moment, les soldes d'hiver sont disponibles !
-    </div>
-    <div class="separation"></div>
     <main class="main">
-        <article class="article_a">
-            <div class="bg-article-a">
-                <a class="bta" href="costumes.html#classics-suits">
-                    <div>
-                        <span>Classic Suit</span>
-                        <span>Classic Suit</span>
-                    </div>
-                </a>
+        <form action="/ma-page-de-traitement" method="post">
+            <div>
+                <label for="name">Nom *</label>
+                <input type="text" id="name" name="user_name" placeholder="Stalone">
             </div>
-            <div class="bg-article-txt">
-                <h1>LE COSTUME CLASSIQUE</h1>
-                <p>Cost Art vous propose une <br> gamme de costumes classiques <br> fabriqués par nos artisans.</p>
-                <p>Si vous découvrez <br> le style sartorial, <br> il est recommandé <br> de commencer par ici !</p>
+            <div>
+                <label for="prenom">Prénom *</label>
+                <input type="text" id="prenom" name="user_name" placeholder="Sylvester">
             </div>
-        </article>
-        <article class="article_b">
-            <div class="bg-article-b">
-                <a class="bta" href="costumes.html#ori-suits">
-                    <div>
-                        <span>Original Suit</span>
-                        <span>Original Suit</span>
-                    </div>
-                </a>
+            <div>
+                <label for="mail">Email *</label>
+                <input type="email" id="mail" name="user_mail" placeholder="Sylvester@ex.com">
             </div>
-            <div class="bg-article-txt">
-                <h1>LE COSTUME ORIGINAL</h1>
-                <p>
-                    Si vous êtes ambitieux, <br> Cost Art vous propose un <br> nouveau costume avec un <br> style plutôt
-                    sportif parfait <br> pour les débutants.
-                </p>
-                <p>Il y a possibilité de porter <br> le gilet / cravate ou non.</p>
+            <div>
+                <label for="phone">Téléphone *</label>
+                <input type="number" id="phone" name="user_name" placeholder="03 12 12 12 12">
             </div>
-        </article>
+            <div>
+                <label for="msg">Message *</label>
+                <textarea id="msg" name="user_message" placeholder="Votre message"></textarea>
+            </div>
+            <div>
+                <button class="bta-form" type="submit">Blue Suit</button>
+            </div>
+        </form>
+        <section id="adresse" class="titre-art">
+            Cost Art <br>
+            42 rue de Nulle part <br>
+            75009 Paris
+        </section>
     </main>
-    <div class="separation"></div>
     <footer class="footer">
-        <div class="img_footer">
-            <p>Nos artisans sélectionnent <br> les meilleurs tissus pour <br> votre costume !</p>
-        </div>
         <div class="info">
             <a href="mentions.html">MENTIONS LEGALES</a>
             <img src="Le_logo/Logo CostardFP.svg" alt="le logo">

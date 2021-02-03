@@ -161,6 +161,7 @@ p {
 .logo_img {
     width: 63px;
     height: 70px;
+    margin-bottom: 6px;
     background:no-repeat center center / cover url(../Le_logo/Logo\ CostardFPWT.jpg);
 }
 
@@ -299,6 +300,59 @@ main {
   align-items: flex-end;
 }
 
+/* Formulaire css */
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+
+  form div:nth-child(5) {
+    flex-direction: column;
+  }
+
+  form label {
+    color: #000000;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  form input {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000b2;
+    border: 1px solid #1E1E23;
+  }
+
+  form input::placeholder {
+    color: #ffffff8e;
+  }
+
+  form textarea::placeholder {
+    color: #ffffff8e;
+  }
+
+  textarea {
+    width: 210px;
+    height: 128px;
+    color: #ffffff;
+    background-color: #000000b2;
+  }
+
+  .bta-form {
+    background-color: #4A4F59;
+    font-size: 22px;
+    width: 150px;
+  }
+
 /* Le footer */
 
 .img_footer {
@@ -396,7 +450,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: 30px;
+}
+
+#adresse {
+  font-size: 20px;
+  margin: 0;
+  font-style: normal;
+  text-align: center;
 }
 
 /* page mentions légales */
@@ -644,6 +705,9 @@ main {
     height: 300px;
     font-size: 25px;
   }
+
+  .titre-art {
+    font-size: 40px;
 }
 
 @media screen and (min-width: 1400px) {
