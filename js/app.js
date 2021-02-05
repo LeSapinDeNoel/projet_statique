@@ -24,6 +24,14 @@ $(document).ready(function() {
         $('#slider').addClass('bg-blue-suit').fadeOut(0);
         $('#slider').removeClass('bg-blue-suit-pov').fadeIn(500);
       }
+
+      // if($('#slider').hasClass('bg-blue-suit')) {
+      //   $('#slider').removeClass('bg-blue-suit').fadeOut(0);
+      //   $('#slider').addClass('bg-blue-suit-pov').fadeIn(500);
+      // } else {
+      //   $('#slider').addClass('bg-blue-suit').fadeOut(0);
+      //   $('#slider').removeClass('bg-blue-suit-pov').fadeIn(500);
+      // }
     })
     
 });

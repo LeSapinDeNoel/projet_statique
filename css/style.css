@@ -384,6 +384,12 @@ iframe {
   background: no-repeat center center / cover url("../img/Suit_Classic_1_pov.jpg");
 }
 
+.bg-grey-suit-pov {
+    height: 583px;
+    width: 360px;
+    background: no-repeat center center / cover url("../img/Suit_Classic_2_pov.jpg");
+  }
+
 /* Le footer */
 
 .img_footer {
@@ -627,6 +633,10 @@ iframe {
     height: auto;
   }
 
+  #mention-main .bg-article-txt {
+    margin: 20px 0;
+  }
+
   /* media contact */
 
   form {
@@ -822,6 +832,12 @@ iframe {
     height: 200px;
   }
 
+  /* media mention */
+
+  #mention-main .bg-article-txt {
+    margin: 40px 0;
+  }
+
   /* Le footer */
 
   .img_footer {
@@ -938,6 +954,13 @@ iframe {
     height: 200px;
     font-size: 25px;
   }
+
+  /* media mentions */
+
+  #mention-main .bg-article-txt {
+    margin: 40px 0;
+  }
+
 
   /* plan site média */
 
@@ -1079,6 +1102,12 @@ iframe {
   }
 
   /* fin media info pro */
+
+  /* media mentions */
+
+  #mention-main .bg-article-txt {
+    margin: 40px 0;
+  }
   
   .mention-txt, .plan-txt {
     font-size: 35px;
