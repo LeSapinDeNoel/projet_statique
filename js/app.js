@@ -20,18 +20,34 @@ $(document).ready(function() {
       if($('#slider').hasClass('bg-blue-suit')) {
         $('#slider').removeClass('bg-blue-suit').fadeOut(0);
         $('#slider').addClass('bg-blue-suit-pov').fadeIn(500);
-      } else {
+      } else if($('#slider').hasClass('bg-blue-suit-pov')){
         $('#slider').addClass('bg-blue-suit').fadeOut(0);
         $('#slider').removeClass('bg-blue-suit-pov').fadeIn(500);
       }
 
-      // if($('#slider').hasClass('bg-blue-suit')) {
-      //   $('#slider').removeClass('bg-blue-suit').fadeOut(0);
-      //   $('#slider').addClass('bg-blue-suit-pov').fadeIn(500);
-      // } else {
-      //   $('#slider').addClass('bg-blue-suit').fadeOut(0);
-      //   $('#slider').removeClass('bg-blue-suit-pov').fadeIn(500);
-      // }
+      if($('#slider').hasClass('bg-grey-suit')) {
+        $('#slider').removeClass('bg-grey-suit').fadeOut(0);
+        $('#slider').addClass('bg-grey-suit-pov').fadeIn(500);
+      } else if($('#slider').hasClass('bg-grey-suit-pov')){
+        $('#slider').addClass('bg-grey-suit').fadeOut(0);
+        $('#slider').removeClass('bg-grey-suit-pov').fadeIn(500);
+      }
+
+      if($('#slider').hasClass('bg-black-suit')) {
+        $('#slider').removeClass('bg-black-suit').fadeOut(0);
+        $('#slider').addClass('bg-black-suit-pov').fadeIn(500);
+      } else if($('#slider').hasClass('bg-black-suit-pov')){
+        $('#slider').addClass('bg-black-suit').fadeOut(0);
+        $('#slider').removeClass('bg-black-suit-pov').fadeIn(500);
+      }
+
+      if($('#slider').hasClass('bg-sailor-suit')) {
+        $('#slider').removeClass('bg-sailor-suit').fadeOut(0);
+        $('#slider').addClass('bg-sailor-suit-pov').fadeIn(500);
+      } else if($('#slider').hasClass('bg-sailor-suit-pov')){
+        $('#slider').addClass('bg-sailor-suit').fadeOut(0);
+        $('#slider').removeClass('bg-sailor-suit-pov').fadeIn(500);
+      }
     })
     
 });

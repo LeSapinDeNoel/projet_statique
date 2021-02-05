@@ -390,6 +390,24 @@ iframe {
     background: no-repeat center center / cover url("../img/Suit_Classic_2_pov.jpg");
   }
 
+.bg-black-suit-pov {
+  height: 583px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/Suit_Classic_3_pov.jpg");
+}
+
+.bg-sailor-suit-pov {
+  height: 583px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/Suit_Classic_4_pov.jpg");
+}
+
+.bg-ori-suit-pov {
+  height: 583px;
+  width: 360px;
+  background: no-repeat center center / cover url("../img/Suit_Ori_pov.jpg");
+}
+
 /* Le footer */
 
 .img_footer {
@@ -825,7 +843,7 @@ iframe {
   }
 
   .bg-article-txt h1 {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 
   .info-plus {
@@ -947,7 +965,7 @@ iframe {
   }
 
   .bg-article-txt h1 {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   #prod-page .info-plus {
@@ -1087,12 +1105,12 @@ iframe {
   #prod-page .bg-article-txt {
     margin: 10px 0;
     font-size: 25px;
-    height: 560px;
+    height: 550px;
     width: 450px;
   }
 
   .bg-article-txt h1 {
-    padding: 80px 0;
+    padding: 50px 0;
     font-size: 30px;
   }
 
