@@ -18,11 +18,11 @@ $(document).ready(function() {
 
     $('.next').click(function() {
       if($('#slider').hasClass('bg-blue-suit')) {
-        $('#slider').removeClass('bg-blue-suit');
-        $('#slider').addClass('bg-blue-suit-pov');
+        $('#slider').removeClass('bg-blue-suit').fadeOut(0);
+        $('#slider').addClass('bg-blue-suit-pov').fadeIn(500);
       } else {
-        $('#slider').addClass('bg-blue-suit');
-        $('#slider').removeClass('bg-blue-suit-pov');
+        $('#slider').addClass('bg-blue-suit').fadeOut(0);
+        $('#slider').removeClass('bg-blue-suit-pov').fadeIn(500);
       }
     })
     
