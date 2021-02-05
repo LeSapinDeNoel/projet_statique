@@ -507,6 +507,10 @@ iframe {
   text-decoration: underline;
 }
 
+#txt-will-appear {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 400px) {
@@ -601,6 +605,20 @@ iframe {
 
   #article-txt {
     margin: 10px 20px;
+  }
+
+  /* media page info produit */
+
+  #slider {
+    margin: 10px 0;
+  }
+
+  #prod-page .bg-article-txt {
+    margin: 10px 0;
+  }
+
+  .info-plus {
+    height: 200px;
   }
   
   /* mentions légales média */
@@ -763,7 +781,46 @@ iframe {
 
   /* main */  
 
-  /* Nothing here :D */
+  /* media page info produit */
+
+  #slider {
+    margin: 10px 0;
+  }
+
+  #txt-must-disapear {
+    display: none;
+  }
+
+  #txt-will-appear {
+    display: initial;
+  }
+
+  #prod-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #prod-page div {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #prod-page .bg-article-txt {
+    margin: 10px 0;
+  }
+  
+  #prod-page #titre-prod {
+    display: none;
+  }
+
+  .bg-article-txt h1 {
+    padding: 40px 0;
+  }
+
+  .info-plus {
+    height: 200px;
+  }
 
   /* Le footer */
 

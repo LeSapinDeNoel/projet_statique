@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     // slider produit
 
-    $('svg').click(function() {
+    $('.next').click(function() {
       if($('#slider').hasClass('bg-blue-suit')) {
         $('#slider').removeClass('bg-blue-suit');
         $('#slider').addClass('bg-blue-suit-pov');
