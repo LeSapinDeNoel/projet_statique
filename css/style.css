@@ -535,6 +535,51 @@ iframe {
   display: none;
 }
 
+/* Galerie css */
+
+#galele {
+  padding: 20px 0;
+}
+
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-container p {
+  color: #1B1F26;
+}
+.grid-container div {
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px #4A4F59;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div:hover img {
+  filter: grayscale(0);
+}
+.grid-container div:hover {
+  border-color: #85888C;
+}
+.grid-container div img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 2px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 400px) {
