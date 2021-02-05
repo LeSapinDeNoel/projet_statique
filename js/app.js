@@ -48,6 +48,14 @@ $(document).ready(function() {
         $('#slider').addClass('bg-sailor-suit').fadeOut(0);
         $('#slider').removeClass('bg-sailor-suit-pov').fadeIn(500);
       }
+
+      if($('#slider').hasClass('bg-winter-suit')) {
+        $('#slider').removeClass('bg-winter-suit').fadeOut(0);
+        $('#slider').addClass('bg-winter-suit-pov').fadeIn(500);
+      } else if($('#slider').hasClass('bg-winter-suit-pov')){
+        $('#slider').addClass('bg-winter-suit').fadeOut(0);
+        $('#slider').removeClass('bg-winter-suit-pov').fadeIn(500);
+      }
     })
     
 });
