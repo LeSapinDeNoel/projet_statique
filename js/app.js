@@ -13,6 +13,18 @@ $(document).ready(function() {
             $('.bt').addClass('bg');
         };
     });
+
+    // slider produit
+
+    $('svg').click(function() {
+      if($('#slider').hasClass('bg-blue-suit')) {
+        $('#slider').removeClass('bg-blue-suit');
+        $('#slider').addClass('bg-blue-suit-pov');
+      } else {
+        $('#slider').addClass('bg-blue-suit');
+        $('#slider').removeClass('bg-blue-suit-pov');
+      }
+    })
     
 });
 
