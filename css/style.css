@@ -868,7 +868,7 @@ iframe {
     margin-left: 150px;
   }
 
-  .bg-blue-suit, .bg-grey-suit, .bg-black-suit, .bg-sailor-suit, .bg-winter-suit {
+  .bg-blue-suit, .bg-grey-suit, .bg-black-suit, .bg-sailor-suit, .bg-winter-suit, #slider {
     height: 810px;
     width: 500px;
   }
@@ -910,6 +910,33 @@ iframe {
 
   .mention-txt, .plan-txt {
     font-size: 30px;
+  }
+
+  /* media page info produit */
+
+  #prod-page {
+    padding: 20px 0;
+  }
+
+  #prod-page div {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #prod-page .bg-article-txt {
+    margin: 10px 0;
+    font-size: 25px;
+    height: 500px;
+    width: 370px;
+  }
+
+  .bg-article-txt h1 {
+    padding: 60px 0;
+  }
+
+  #prod-page .info-plus {
+    height: 200px;
+    font-size: 25px;
   }
 
   /* plan site média */
@@ -1022,6 +1049,36 @@ iframe {
 
   
   /* Fin page costumes */
+
+   /* media page info produit */
+
+   #prod-page {
+    padding: 20px 0;
+  }
+
+  #prod-page div {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #prod-page .bg-article-txt {
+    margin: 10px 0;
+    font-size: 25px;
+    height: 560px;
+    width: 450px;
+  }
+
+  .bg-article-txt h1 {
+    padding: 80px 0;
+    font-size: 30px;
+  }
+
+  #prod-page .info-plus {
+    height: 200px;
+    font-size: 28px;
+  }
+
+  /* fin media info pro */
   
   .mention-txt, .plan-txt {
     font-size: 35px;
